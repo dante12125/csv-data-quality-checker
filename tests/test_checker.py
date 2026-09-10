@@ -3,9 +3,9 @@ import unittest
 from src.checker import (
     count_missing_values,
     count_duplicates,
-    get_basic_statistics
+    get_basic_statistics,
+    find_invalid_numeric_values
 )
-
 
 class TestDataQualityChecker(unittest.TestCase):
 
